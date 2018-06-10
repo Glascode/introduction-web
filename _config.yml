@@ -1,0 +1,12 @@
+# Site settings
+title: Glascode
+email: glascode.x@gmail.com
+description: >
+  Introduction to web development.
+baseurl: ""
+url: "http://glascode.github.io/introduction-web"
+github_username: glascode
+# Build settings
+include: ['_pages']
+kramdown:
+  input: GFM
