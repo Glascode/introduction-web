@@ -1,15 +1,13 @@
 $(document).ready(function () {
 
-    var $toc = $(".toc");
-
+    /* Table of contents */
     var $tocContainer = $("#toc-container");
     $tocContainer.find(".tocnumber").remove();
-
     var $tocTitle = $tocContainer.find("#toctitle");
     var $tocList = $tocTitle.next();
-
     $tocContainer.remove();
 
+    var $toc = $(".toc");
     $toc.html($tocList);
 
     /* Cache selectors */
@@ -35,15 +33,15 @@ $(document).ready(function () {
         var offsetTop = href === "#" ? 0 : $(href).offset().top + 1;
         $("html, body").stop().animate({
             scrollTop: offsetTop
-        }, 850);
+        }, 300);
         e.preventDefault();
     });
 
     /* Bind to scroll */
     $(window).scroll(function () {
         // Get container scroll position
-        var $windowTop = $(this).scrollTop() + $headerHeight;
-        const SHIFT = 200;
+        var $windowTop = $(this).scrollTop();
+        const SHIFT = 0;
         // Get id of current scroll item
         var cur = scrollItems.map(function () {
             if ($(this).offset().top < $windowTop + SHIFT)
