@@ -3,8 +3,8 @@ title: Introduction web
 email: glascode.x@gmail.com
 description: >
   Introduction to web development.
-baseurl: ""
-url: "http://glascode.github.io/introduction-web"
+baseurl: "/introduction-web"
+url: "http://glascode.github.io"
 github_username: glascode
 # Build settings
 include: ['_pages']
