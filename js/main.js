@@ -1,17 +1,27 @@
 $(document).ready(function () {
 
+    var $toc = $(".toc");
+
+    var $tocContainer = $("#toc-container");
+    $tocContainer.find(".tocnumber").remove();
+
+    var $tocTitle = $tocContainer.find("#toctitle");
+    var $tocList = $tocTitle.next();
+
+    $tocContainer.remove();
+
+    $toc.html($tocList);
+
     /* Cache selectors */
     var lastId;
     var $header = $(".header");
     var $headerHeight = $header.outerHeight() + 1;
 
-    $(".content").css("margin-top", $headerHeight);
-
     /* All list items */
-    var $navLinks = $(".nav--link");
+    var $tocLinks = $toc.find("a");
 
     /* Anchors corresponding to menu items */
-    var scrollItems = $navLinks.map(function () {
+    var scrollItems = $tocLinks.map(function () {
         var $item = $($(this).attr("href"));
         if ($item.length) {
             return $item;
@@ -20,9 +30,9 @@ $(document).ready(function () {
 
     // Bind click handler to menu items
     // so we can get a fancy scroll animation
-    $navLinks.click(function (e) {
+    $tocLinks.click(function (e) {
         var href = $(this).attr("href");
-        var offsetTop = href === "#" ? 0 : $(href).offset().top - $headerHeight + 1;
+        var offsetTop = href === "#" ? 0 : $(href).offset().top + 1;
         $("html, body").stop().animate({
             scrollTop: offsetTop
         }, 850);
@@ -47,8 +57,13 @@ $(document).ready(function () {
             lastId = id;
 
             /* Set or remove active class */
-            $navLinks.removeClass("current");
-            $navLinks.filter("[href='#" + id + "']").addClass("current");
+            $tocLinks.parent().removeClass("active")
+                    .parent().parent().removeClass("active");
+            $tocLinks.filter("[href='#" + id + "']").parent().addClass("active")
+                    .parent().parent().addClass("active");
+
+            // $active = $(".active");
+            // $active.parent().parent().addClass("active-parent");
         }
     });
 });

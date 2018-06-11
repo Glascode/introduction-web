@@ -7,14 +7,17 @@
 <main>
     {% include header.html %}
     <div class="content">
-        {{ content }}
+        <nav class="toc"></nav>
+        <div class="markdown-body">
+            {{ content }}
+        </div>
     </div>
 </main>
 
 {% include footer.html %}
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="{{ '/scripts/main.js' | prepend: site.baseurl }}"></script>
+<script src="{{ '/js/jquery.toc.js' | prepend: site.baseurl }}"></script>
+<script src="{{ '/js/main.js' | prepend: site.baseurl }}"></script>
 </body>
 
 </html>
