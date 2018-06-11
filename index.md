@@ -31,7 +31,7 @@ En-tête de base d'un fichier HTML :
 | `</html>` | ferme le fichier html |
 
 
-## Exercice 1
+## Navigateurs
 
 En comparant la page sur plusieurs navigateurs, on peut observer qu’elles sont identiques du point de vue de la mise en page. Seule la police ou la taille du texte varie, ces dernières étant les propriétés par défaut du navigateur (étant donné que l’on n’a pas de fichier css, le navigateur prendra une police par défaut).
 
@@ -40,7 +40,7 @@ En comparant la page sur plusieurs navigateurs, on peut observer qu’elles sont
 _À gauche le style par défaut du navigateur Chromium, à droite celui de Firefox_
 
 
-## Exercice 2
+## Erreur à ne pas commettre
 
 Nous pouvons voir dans ce fichier (erreurs.html) plusieurs erreurs que l’on pourrait commettre lorsque l’on débute ou que l’on est pas assez concentré.
 

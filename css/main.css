@@ -145,6 +145,29 @@ main {
     padding: 0 30px;
 }
 
+.markdown-body p,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body pre,
+.markdown-body table,
+.markdown-body blockquote {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    line-height: 1.25;
+}
+
 .markdown-body h1 {
     padding-bottom: 0.3em;
     font-size: 2em;
@@ -176,18 +199,6 @@ main {
 .markdown-body h6 {
     font-size: 0.85em;
     color: #6a737d;
-}
-
-.markdown-body h1,
-.markdown-body h2,
-.markdown-body h3,
-.markdown-body h4,
-.markdown-body h5,
-.markdown-body h6 {
-    margin-top: 24px;
-    margin-bottom: 16px;
-    font-weight: 600;
-    line-height: 1.25;
 }
 
 .markdown-body img {
