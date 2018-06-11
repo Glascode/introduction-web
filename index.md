@@ -35,6 +35,10 @@ En-tête de base d'un fichier HTML :
 
 En comparant la page sur plusieurs navigateurs, on peut observer qu’elles sont identiques du point de vue de la mise en page. Seule la police ou la taille du texte varie, ces dernières étant les propriétés par défaut du navigateur (étant donné que l’on n’a pas de fichier css, le navigateur prendra une police par défaut).
 
+![Browsers](images/browsers.png)
+
+_À gauche le style par défaut du navigateur Chromium, à droite celui de Firefox_
+
 
 ## Exercice 2
 
