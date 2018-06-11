@@ -9,6 +9,8 @@ style: hero
 
 ## Quelques balises utiles
 
+En-tête de base d'un fichier HTML :
+
 ```html
 <!DOCTYPE html>
 <html lang="fr">
