@@ -83,11 +83,11 @@ main {
 }
 
 .toc ul ul {
-    display: none;
+    /*display: none;*/
 }
 
 .toc ul > .active > ul {
-    display: block;
+    /*display: block;*/
 }
 
 .toc ul > li > a {
@@ -141,8 +141,8 @@ main {
 }
 
 .markdown-body {
-    width: 80%;
-    padding: 0 30px;
+    width: 70%;
+    padding-right: 30px;
 }
 
 .markdown-body p,

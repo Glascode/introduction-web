@@ -1,8 +1,6 @@
 ---
 layout: default
 title: Home
-id: home
-style: hero
 ---
 
 # Structure d'une page HTML
@@ -84,7 +82,22 @@ La balise de titre `<title>` permet de donner un nom à la page. Ce nom sera af
 
 ### Le corps 
 
-L’en-tête est suivie des balises de sections du corps, contenues dans la partie **body** (`<body>...</body>`), qui permettent de structurer la page de manière globale.
+L’en-tête est suivie des balises de sections du corps, contenues dans la partie _body_ (`<body>...</body>`), qui permettent de structurer la page de manière globale.
+
+| `<header></header>` | Cette balise définit un bloc d'en-tête et contient habituellement un titre.  |
+| `<footer></footer>` | Cette balise permet de définir un pied de page. |
+
+Ensuite vient le moment de mettre du texte. On utilisera donc des balises de bloc du corps.
+
+| `<h1>, <h2>, ..., <h6>` | Ces balises définissent un titre ou un sous-titre. Il en existe 6, allant de `<h1>` à `<h6>`. |
+| `<p>` | Ce bloc est fait pour contenir uniquement du texte et éventuellement d'autres éléments (comme par exemple, `<em>`, `<strong>`, `<span>`, etc.). |
+| `<hr/>` | Cette balise insère une ligne de séparation horizontale. |
+
+Enfin, on pourra noter les balises de listes :
+
+| `<ol>` | Cette balise permet de créer une liste ordonnée. Les éléments de cette liste seront précédés d'un numéro ou d'une lettre. |
+| `<ul>` | Cette balise permet de créer une liste non-ordonnée. Les éléments de cette liste seront précédés d'une liste. |
+| `<li>` | Les éléments de ces listes sont inclus entre des balises `<li>` et `</li>`. Ces listes peuvent être imbriquées les dans les autres pour créer plusieurs niveaux.
 
 
 # Liens et navigation dans les pages
