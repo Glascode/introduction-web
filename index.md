@@ -68,7 +68,7 @@ Les balises _html_ quant à elles enveloppent le contenu du fichier. On utilise
 
 Vient ensuite l’en-tête, délimitée par les balises `<head>` et `</head>`, elle se situe toujours au-dessus du corps. Elle contient des éléments utiles du fichier mais qui ne seront pas affichés dans la page.
 
-La balise de métadonnées  <meta>  permet comme son nom l’indique de définir des métadonnées (données connexes du fichier). Un des types de cette balise permet de définir le jeu de caractères utilisé (`<meta charset="jeu_de_carctères">`), un autre type permet de définir des métadonnées par un couple nom=contenu (`<meta name="nom" content="valeur">`)
+La balise de métadonnées  <meta>  permet comme son nom l’indique de définir des métadonnées (données connexes du fichier). Un des types de cette balise permet de définir le jeu de caractères utilisé (`<meta charset="jeu_de_carctères">`), un autre type permet de définir des métadonnées par un couple nom-contenu (`<meta name="nom" content="valeur">`)
 
 La balise de titre `<title>` permet de donner un nom à la page. Ce nom sera affiché dans la barre de titre du navigateur ou de l'onglet, et est utilisé par les moteurs de recherche pour nommer la page.
 

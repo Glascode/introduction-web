@@ -23,7 +23,8 @@ pre {
 code {
     font-weight: normal;
     font-size: 85%;
-    font-family: "Fira Mono", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier,
+    monospace;
 }
 
 /* Comment */
