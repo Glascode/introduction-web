@@ -37,6 +37,28 @@ En comparant la page sur plusieurs navigateurs, on peut observer qu’elles sont
 
 _À gauche le style par défaut du navigateur Chromium, à droite celui de Firefox_
 
+```html
+<h1><mark>Un titre principal en très gros</mark></h1>
+
+<em>Pour l'instant un peu seul</em>
+
+<hr>
+
+<p>Nous avons plein de balises à voir dans les <strong>listes de référence</strong></p>
+
+<hr>
+
+<h2>Plusieurs niveaux de titres</h2>
+
+<h3>Un peu gros</h3>
+
+<h4>Moins gros</h4>
+
+<h5>Encore moins gros</h5>
+
+<h6>De plus en plus petit</h6>
+```
+
 ## Erreurs à ne pas commettre
 
 Voici quelques erreurs que l’on pourrait commettre lorsque l’on débute ou que l’on est pas assez concentré.
