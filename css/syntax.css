@@ -18,6 +18,7 @@ code.highlighter-rouge { /* inline code */
 
 pre {
     margin: 0;
+    overflow: scroll;
 }
 
 code {
