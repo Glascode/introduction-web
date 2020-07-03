@@ -16,7 +16,7 @@ $(document).ready(function () {
     var $headerHeight = $header.outerHeight() + 1;
 
     /* All list items */
-    var $tocLinks = $toc.find("a");
+    var $tocLinks = $toc.find('a');
 
     /* Anchors corresponding to menu items */
     var scrollItems = $tocLinks.map(function () {
