@@ -24,8 +24,7 @@ pre {
 code {
     font-weight: normal;
     font-size: 85%;
-    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier,
-    monospace;
+    font-family: "Roboto Mono", monospace;
 }
 
 /* Comment */

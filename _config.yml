@@ -1,10 +1,9 @@
 # Site settings
 title: Introduction au développement web
-email: glascode.x@gmail.com
 description: >
   Introduction to web development.
-baseurl: "/introduction-web"
-url: "http://glascode.github.io"
+baseurl: "/web"
+url: "http://maelquerre.github.io"
 github_username: glascode
 # Build settings
 include: ['_pages']

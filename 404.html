@@ -3,13 +3,24 @@ layout: default
 title: Page not found
 ---
 
+<style>
+    .toc {
+        display: none;
+    }
+
+    .markdown-body {
+        width: 100%;
+    }
+</style>
+
 <div style="text-align: center; margin: 3em auto">
     <h2 style="font-size: 6em; margin-bottom: 2rem">
-        Oops!
+        Oups !
     </h2>
     <p>La page que vous avez demandée n'existe pas.</p>
 </div>
 
-<a class="button transparent" style="margin: 0 auto;" href="{{ site.url }}">
-    Return home
+<a style="display: block; width: fit-content; margin: 0 auto;"
+   href="{{ site.url }}{{ site.baseurl }}/">
+    Retourner à la page d'accueil
 </a>
